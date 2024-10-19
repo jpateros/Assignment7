@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <title>Assignment 07 - Part 5</title>
     <script src="js/dom-practice.js"></script>
+    <!-- part 5 -->
+    <script>
+    window.onload = function() {
+        var button = document.getElementById("part5");
+      
+        button.addEventListener("click", function() {
+            alert("I have been clicked and defined callbakc inside head tag");
+        });
+    };
+</script>
 </head>
 <body>
-    
+    <button onclick="alertFunction()">Button</button>
+    <button id="2049">Button Part 2</button>
+    <button id="part3">Button Part 3</button>
+    <button id="part4">Button Part 4</button>
+    <button id="part5">Button Part 5</button>
 </body>
 </html>
